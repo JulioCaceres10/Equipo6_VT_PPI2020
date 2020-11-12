@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 
+app.use("/api", require("./routes/usuarios"))
+
 app.get("/",function(req,res) {
   res.send("mi primer servidor")
 })
