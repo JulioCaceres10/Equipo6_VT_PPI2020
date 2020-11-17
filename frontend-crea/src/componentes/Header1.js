@@ -43,11 +43,6 @@ function Header1() {
             Tienda
           </Link>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" to="#">
-            Seguimiento
-          </a>
-        </li>
         <li>
         <Link class="nav-ite" title="Cerrar sesion" to="/">
         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-door-open-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
